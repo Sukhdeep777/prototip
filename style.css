@@ -9,6 +9,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Altura mínima de toda la pantalla */
+    background: #3c3c3c;
     margin: 0;
 }
 
@@ -20,7 +21,6 @@ header{
     padding: 0px 10px;
     color: white;
     padding: 10px;
-    width: 100%;
 }
 
 .princ{
@@ -45,8 +45,9 @@ main{
     width: 100%;
     height: 300px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     flex: 1;
     background: url(https://www.doonamis.com/wp-content/uploads/2020/10/Principales-cualidades-de-una-empresa-digital-exitosa-scaled.jpg);
     background-size: cover;
@@ -58,11 +59,18 @@ main{
 }
 
 .title input{
-    width: 600px;
+    width: 700px;
+    height: 100px;
     padding: 30px;
     border-radius: 18px;
     border: none;
     padding-left: 50px;
+    background: #ffffffa4;
+}
+
+input:hover{
+    background: white;
+    transition: all 0.3s ease; 
 }
 
 .icon{
@@ -72,6 +80,29 @@ main{
     transform: translateY(-50%);
     color: #888;
     width: 20px;
+}
+
+.btn{
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+button{
+    background: rgb(12, 202, 123);
+    color: #000000;
+    padding: 30px;
+    border-radius: 18px;
+    border: none;
+}
+
+button:hover{
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+    transform: scale(1.2);
+    transition: all 0.3s ease; 
+    cursor: pointer;
 }
 
 footer{
