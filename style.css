@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #E4E4E5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Altura mínima de toda la pantalla */
+    margin: 0;
+}
+
+header{
+    background: #3c3c3c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+.princ{
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background: url(https://www.doonamis.com/wp-content/uploads/2020/10/Principales-cualidades-de-una-empresa-digital-exitosa-scaled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+    position: relative;
+}
+
+.title input{
+    width: 600px;
+    padding: 30px;
+    border-radius: 18px;
+    border: none;
+    padding-left: 50px;
+}
+
+.icon{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    width: 20px;
+}
+
+footer{
+    background: #3c3c3c;
+    padding: 10px;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    text-align: justify;
+}
+
+.resum{
+    width: 50%;
+}
+
+.tit{
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
